@@ -1092,3 +1092,94 @@ outline: none;
     transform: scale(0) rotateZ(-90deg);
   }
 }
+
+/* skills style  */
+.col-auto a{
+  background-color: #3b3737 !important;
+}
+#skills {
+  background-color: #272727;
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+#skills .my-intro-text {
+  color: #feb633;
+  text-align: center;
+}
+
+#skills h3 {
+  text-align: center;
+  color: #363636;
+}
+
+#skills-row {
+  justify-content: center;
+  display: inline-flex;
+  margin-top: 2%;
+  text-align: center;
+}
+
+#skills-row .col-auto {
+  padding: 0;
+}
+
+@media (min-width:840px) {
+  .col-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 30% !important;
+    max-width: 100%;
+}
+
+
+}
+.icon {
+  height: 12.25em;
+  width: 13.25em;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 1.5em;
+  margin-left: 0.5em;
+  border-radius: 8%;
+}
+
+.icon i,
+.icon svg {
+  line-height: 1.5;
+  height: 152px;
+  width: 115px;
+  font-size: 115px;
+  color: #feb633;
+}
+
+.icon img {
+  line-height: 1.5;
+  width: 115px;
+  font-size: 115px;
+  color: #feb633;
+}
+
+.icon:hover {
+  background-color: #feb633;
+}
+
+.icon:hover i {
+  color: white;
+}
+
+.icon:hover img {
+  fill: white;
+}
+.icon:hover svg {
+  fill: white;
+}
+
+.icon:hover p {
+  color: white;
+}
+
